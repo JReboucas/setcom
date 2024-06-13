@@ -14,7 +14,10 @@ const comments = require("gulp-header-comment");
 const template = require("gulp-template");
 const theme = require("./src/theme.json");
 const node_env = process.argv.slice(2)[0];
-
+const headerComments = `WEBSITE: https://www.joaoreboucas.com.br
+                        TWITTER: https://twitter.com
+                        FACEBOOK: https://facebook.com
+                        GITHUB: https://github.com/JReboucas`;
 var path = {
   // source paths
   src: {
